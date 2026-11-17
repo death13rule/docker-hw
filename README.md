@@ -61,6 +61,22 @@ https://hub.docker.com/repository/docker/death13rule/custom-nginx/general
 
 В качестве ответа приложите скриншоты консоли, где видно все введенные команды и их вывод.
 
+## Решение 3  
+Скриншот по п.п. 1-3:  
+![alt text](https://github.com/death13rule/screenshots/blob/3533f46623d890e7aa16166183de4ea98db0cf3a/docker-hw-2.png)  
+Комбинация клавиш Ctrl-C передает контейнеру сигнал SIGINT, тем самым завершает его основной процесс и останавливает.  
+
+Скриншоты по п.п. 4-12:
+![alt text](https://github.com/death13rule/screenshots/blob/3e51c7df0fee3c3fb61b3797b78f44599c920ceb/docker-hw-3.png)  
+![alt text](https://github.com/death13rule/screenshots/blob/3e51c7df0fee3c3fb61b3797b78f44599c920ceb/docker-hw-5.png)  
+Проблема заключается в том, что мы изменили порт, который слушает nginx с 80 на 81, а сопоставление портов запущенного докер контейнера и хостовой машины оставили прежними.
+![alt text](https://github.com/death13rule/screenshots/blob/3e51c7df0fee3c3fb61b3797b78f44599c920ceb/docker-hw-4.png)  
+
+
+
+
+
+
 ## Задача 4
 
 
