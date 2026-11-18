@@ -141,19 +141,19 @@ services:
 
 ## Решение 5  
 
-1. Созданы два файла, согласно условиям задания. При выполнении compose up -d выполняется файл compose.yaml, поскольку приоритет выполнения по дефолту отдаётся файлу с таким именем.
+1. Созданы два файла, согласно условиям задания. При выполнении compose up -d выполняется файл compose.yaml, поскольку приоритет выполнения по дефолту отдаётся файлу с таким именем.  
 ![alt text](https://github.com/death13rule/screenshots/blob/c43ae774d5981a73a2cdd61f725b1fb32ff76868/docker-hw-7.png)  
 
-2. Запуск обоих файлов манифеста возможен при добавлении в приоритетный файл параметра include с указанием остальных файлов манифеста.
-![alt text](https://github.com/death13rule/screenshots/blob/91e29238120e29e93ad1c0ee61f92ba3503a48d6/docker-hw-8.png)
+2. Запуск обоих файлов манифеста возможен при добавлении в приоритетный файл параметра include с указанием остальных файлов манифеста.  
+![alt text](https://github.com/death13rule/screenshots/blob/91e29238120e29e93ad1c0ee61f92ba3503a48d6/docker-hw-8.png)  
 
-3. Скриншот терминала с выполненными командами:
-![alt text](https://github.com/death13rule/screenshots/blob/b57819a6321def660175a89efa89d087b216e74c/docker-hw-9.png)
+3. Скриншот терминала с выполненными командами:  
+![alt text](https://github.com/death13rule/screenshots/blob/b57819a6321def660175a89efa89d087b216e74c/docker-hw-9.png)  
 
 4-6. Были выполнены настройки, согласно условиям задания. Скриншот п.п.6:  
-![alt text](https://github.com/death13rule/screenshots/blob/7766cec037a4c714e347c71af59a562cb3949105/docker-hw-10.png)
+![alt text](https://github.com/death13rule/screenshots/blob/7766cec037a4c714e347c71af59a562cb3949105/docker-hw-10.png)  
 
-7. Скришот выполненной команды:
+7. Скришот выполненной команды:  
 ![alt text](https://github.com/death13rule/screenshots/blob/d4721ad913609097ffa3145d3127553d704b3e93/docker-hw-12.png)  
 Возникающее предупреждение после удаление одного из файлов манифеста означает, что в проекте нашлись работающие контейнеры, которые не описаны в оставшемся файле манифеста.
 
